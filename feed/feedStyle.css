@@ -1,0 +1,50 @@
+.sectionHeader {
+  background-image: url(../assets/img1.png);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#cabecalho {
+  font-size: 80px;
+  color: #E384FF;
+  text-shadow: 3px 3px black;
+}
+
+li {
+  align-items: baseline;
+}
+
+nav {
+  background-color: #E384FF;
+  display: table;
+  width: 100%;
+  margin: 0 auto;
+
+
+}
+
+.menu {
+  list-style: none;
+  float: left;
+}
+
+.menu li {
+  position: relative;
+  float: left;
+  font-size: 40px;
+}
+
+.menu li a {
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow: 1px 1px black;
+  padding: 5px 25px;
+  display: block;
+}
+
+.body {
+  background-color: black;
+}
