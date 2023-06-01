@@ -3,14 +3,15 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 #cabecalho {
-  font-size: 80px;
+  font-size: 100px;
   color: #E384FF;
   text-shadow: 3px 3px black;
+  position: relative;
 }
 
 li {
@@ -43,6 +44,7 @@ nav {
   text-shadow: 1px 1px black;
   padding: 5px 25px;
   display: block;
+  margin-left: 15px;
 }
 
 .body {
@@ -59,7 +61,7 @@ nav {
   background-color: #E384FF;
   border-radius: 20px;
   width: 95%;
-
+  margin-bottom: 15px;
 }
 
 .box2 {
